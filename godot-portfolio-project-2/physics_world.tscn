@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://deph6rdcu01k7"]
+
+[ext_resource type="PackedScene" uid="uid://bmnltcx7iljub" path="res://FallingBox.tscn" id="1_nn82q"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ppsl0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dkxc2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qthnc"]
+size = Vector3(10, 1, 10)
+
+[node name="PhysicsWorld" type="Node3D" unique_id=1517978828]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1604078431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=85193830]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, 0.25881907, 0, -0.25881907, 0.9659258, 0, 5, 10)
+current = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=504955783]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=555271098]
+mesh = SubResource("BoxMesh_ppsl0")
+surface_material_override/0 = SubResource("StandardMaterial3D_dkxc2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=250245951]
+shape = SubResource("BoxShape3D_qthnc")
+
+[node name="RigidBody3D" parent="." unique_id=298349749 instance=ExtResource("1_nn82q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
