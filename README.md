@@ -1,3 +1,4 @@
+# Physics-Research-Samples
 Project: Physics-Based Simulation & Procedural Generation
 Overview: Designed a modular 3D environment in Godot 4 to explore physics constraints and programmatic asset instantiation.
 
@@ -16,3 +17,16 @@ Clone this repository.
 Open the project in Godot 4.
 
 Launch procedural_generator.tscn.
+
+## Technical Overview
+This repository contains two core modules developed in Godot 4:
+- **PhysicsWorld**: A base simulation environment.
+- **ProceduralGenerator**: A scripted system for automated asset instantiation.
+
+## Key Skills Demonstrated
+* **GDScript Programming**
+* **Physics/Collision Logic**
+* **Procedural Data Pipeline Design**
+
+## Contact
+Developed by Rob Ralbovsky | https://www.linkedin.com/in/robert-ralbovsky/
