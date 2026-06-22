@@ -1,33 +1,32 @@
-Godot-Physics-Research-Samples
-This repository contains my research and technical experiments using the Godot Engine. The primary focus of this project was to implement structural UI logic, signal handling, and physics-based interactions within a clean, modular architecture.
+Godot-Portfolio-2026
+This repository documents my ongoing research and technical experiments using the Godot Engine. My work focuses on building high-performance, modular digital assets, ranging from complex UI signal architectures to physics-driven spatial interactions.
 
 🛠 Tech Stack
 Engine: Godot 4.x
 
 Language: GDScript
 
-Key Concepts: Signal-driven UI, Physics Simulations, Procedural Logic.
+Core Focus: Signal-driven UI, Physics Simulations, Procedural Logic
 
-📂 Project Overview
-This repository serves as a technical portfolio piece demonstrating proficiency in:
+📂 Featured Projects
+1. Project Touchstone: SpatialPhysics
+A physics-driven sandbox exploring rigid body dynamics and collision material overrides.
 
-Signal Architecture: Decoupling UI components from core game logic using Godot’s signal system.
+Key Focus: Implementing RigidBody3D hierarchies and custom PhysicsMaterial properties to simulate elastic collisions and spatial interaction.
 
-Physics Simulation: Implementation of custom physics behaviors.
+Implementation: Developed a custom sandbox environment with StaticBody3D environmental constraints and dynamic object interaction.
 
-UI/UX Implementation: Functional buttons, text-based logging systems, and dynamic viewport updates.
+2. Initial Research Samples: UI & Signal Architecture
+My foundational experiments in decoupling UI components from core game logic.
 
-🚀 Key Features
-Dynamic Logging: A functional UI-based text log that tracks real-time system events.
+Key Focus: Signal-driven UI and event-based systems.
 
-Signal Logic: Implemented _on_button_pressed workflows for responsive interface interaction.
-
-Clean Structure: Designed with scalable scene and signal architecture in mind.
+Key Features: Dynamic logging systems, functional _on_button_pressed workflows, and modular scene architecture.
 
 📈 Status
-[v1.0] - Initial implementation of core physics and UI controls.
+[v1.1] - Integrated SpatialPhysics module; added advanced collision material handling and rigid body physics.
 
-[Next Steps] - Expanding into procedural generation and more complex physics constraints.
+[v1.0] - Initial implementation of core UI, signals, and basic physics testing.
 
 👤 About
-Hi, I'm Robert, a professional audio producer and quantitative trader with a deep interest in game development and systems architecture. This project represents my transition into building high-performance digital assets using the Godot engine.
+Hi, I'm Robert, a professional audio producer and quantitative trader with a deep interest in game development and systems architecture. This project represents my transition into building high-performance digital assets using the Godot engine, leveraging my background in data-driven decision-making and structural analysis.
